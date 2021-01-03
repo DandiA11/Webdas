@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    background-color: white;
+    font-family: 'Oswald', sans-serif;
+}
+.container{
+    border: 1px solid black;
+}
+#banner {
+    background-color: #3498db;
+    color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+    cursor: default;
+    padding: 10em 4em 9em 4em;
+}
+#banner h1{
+    color: #fff;
+    font-size: 2.75em;
+    line-height: 1.45em;
+    font-weight: bold;
+}
+#banner a {
+    color: #fff;
+}
+.post{
+    margin-top: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% auto;
+    height: 450px;
+}
+.post .image img {
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+}
+.post .content{
+    padding: 50px;
+}
+.post-left{
+    text-align: right;
+}
+.post-left p{
+    margin-left: 20%;
+}
+.post-left i{
+    color: grey;
+    font-size: 11px;
+}
+
+.post-right{
+    text-align: left;
+}
+.post-right p{
+    margin-right: 20%;
+}
+.post-right i{
+    color: grey;
+    font-size: 11px;
+}
+
+#footer {
+    padding: 4em 0 2em 0;
+    background: #1c1c1c;
+    text-align: center;
+}
+#footer .copyright {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.9em;
+    margin: 0 0 2em 0;
+    padding: 0;
+}
+#footer .copyright a{
+    color:  rgba(255, 255, 255, 0.75);
+}
